@@ -194,6 +194,7 @@
 					"$(OPENSSL_SRC)/include",
 				);
 				INSTALL_PATH = /usr/local/lib;
+				OPENSSL_SRC = ../Libraries/openssl;
 				OTHER_CFLAGS = (
 					"-DSQLITE_HAS_CODEC",
 					"-DNDEBUG",
@@ -224,6 +225,7 @@
 					"$(OPENSSL_SRC)/include",
 				);
 				INSTALL_PATH = /usr/local/lib;
+				OPENSSL_SRC = ../Libraries/openssl;
 				OTHER_CFLAGS = (
 					"-DSQLITE_HAS_CODEC",
 					"-DNDEBUG",
